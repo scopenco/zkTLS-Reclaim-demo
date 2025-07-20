@@ -6,6 +6,7 @@ __pycache__/
 *.pyd
 .env
 *.env
+.creds
 
 # FastAPI/uvicorn logs
 *.log

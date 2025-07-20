@@ -26,12 +26,13 @@ zktls-reclaim/
 ## Setup
 
 ### Backend
+Edit `.creds` and add `APP_ID`, `APP_SECRET`, and `PROVIDER_ID`.
 ```bash
 cd backend
-python3 -m venv venv
-source venv/bin/activate
+python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
-uvicorn app:app --reload --host 0.0.0.0 --port 3000
+set -a && source .creds && set +a
+python app.py
 ```
 - The backend exposes:
   - `GET /generate-config` — returns a Reclaim proof request config
