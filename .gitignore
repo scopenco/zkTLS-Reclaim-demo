@@ -1,0 +1,38 @@
+# Python
+backend/venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+*.env
+
+# FastAPI/uvicorn logs
+*.log
+
+# React/Node/JS
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+node_modules/
+dist/
+build/
+.npm/
+.npmrc
+.yarn/
+yarn.lock
+.pnpm-debug.log
+package-lock.json
+npm-debug.log
+coverage/
+.cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Misc
+*.swp
+*.swo
+.idea/
+.vscode/ 
