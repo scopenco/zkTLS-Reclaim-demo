@@ -5,7 +5,7 @@ This MVP demonstrates a flow where a user makes a bank payment, generates a zkTL
 
 ## Architecture
 - **User**: Interacts with a React frontend to generate and submit a ZK proof.
-- **Verifier (Marketplace)**: Receives and verifies the proof (FastAPI backend).
+- **Verifier**: Receives and verifies the proof (FastAPI backend).
 - **Stack**: zkTLS, Python, FastAPI, React, Reclaim Protocol Python SDK, Reclaim JS SDK.
 
 ## Directory Structure
@@ -18,6 +18,7 @@ zktls-reclaim/
 ├── frontend/               # React frontend for user interaction
 │   ├── package.json        # Frontend dependencies
 │   ├── src/
+│   │   └── main.jsx        #  React app initiator
 │   │   └── App.jsx         # Main React app
 │   └── ...
 ├── README.md
