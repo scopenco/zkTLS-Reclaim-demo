@@ -18,7 +18,7 @@ zktls-reclaim/
 ├── frontend/               # React frontend for user interaction
 │   ├── package.json        # Frontend dependencies
 │   ├── src/
-│   │   └── main.jsx        #  React app initiator
+│   │   └── main.jsx        # React app initiator
 │   │   └── App.jsx         # Main React app
 │   └── ...
 ├── README.md
